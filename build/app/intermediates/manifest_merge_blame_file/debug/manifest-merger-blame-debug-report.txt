@@ -1,0 +1,135 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.themealdbdemoapi"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\android\app\src\debug\AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
+15-->C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\android\app\src\main\AndroidManifest.xml:3:5-77
+15-->C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\android\app\src\main\AndroidManifest.xml:3:22-74
+16
+17    <queries>
+17-->C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\android\app\src\main\AndroidManifest.xml:4:5-17:15
+18        <intent>
+18-->C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\android\app\src\main\AndroidManifest.xml:5:9-8:18
+19            <action android:name="android.intent.action.VIEW" />
+19-->C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\android\app\src\main\AndroidManifest.xml:6:13-65
+19-->C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\android\app\src\main\AndroidManifest.xml:6:21-62
+20
+21            <data android:scheme="https" />
+21-->C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\android\app\src\main\AndroidManifest.xml:7:13-44
+21-->C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\android\app\src\main\AndroidManifest.xml:7:19-41
+22        </intent>
+23        <intent>
+23-->C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\android\app\src\main\AndroidManifest.xml:9:9-12:18
+24            <action android:name="android.intent.action.DIAL" />
+24-->C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\android\app\src\main\AndroidManifest.xml:10:13-65
+24-->C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\android\app\src\main\AndroidManifest.xml:10:21-62
+25
+26            <data android:scheme="tel" />
+26-->C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\android\app\src\main\AndroidManifest.xml:7:13-44
+26-->C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\android\app\src\main\AndroidManifest.xml:7:19-41
+27        </intent>
+28        <intent>
+28-->C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\android\app\src\main\AndroidManifest.xml:13:9-16:18
+29            <action android:name="android.intent.action.SEND" />
+29-->C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\android\app\src\main\AndroidManifest.xml:14:13-65
+29-->C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\android\app\src\main\AndroidManifest.xml:14:21-62
+30
+31            <data android:mimeType="*/*" />
+31-->C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\android\app\src\main\AndroidManifest.xml:7:13-44
+32        </intent>
+33    </queries>
+34
+35    <application
+36        android:name="android.app.Application"
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.6.0] C:\Users\pc\.gradle\caches\transforms-3\2113905c51a8b20efa963a44f98f628d\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+38        android:debuggable="true"
+39        android:icon="@mipmap/ic_launcher"
+40        android:label="iMeal" >
+41        <activity
+42            android:name="com.example.themealdbdemoapi.MainActivity"
+43            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+44            android:exported="true"
+45            android:hardwareAccelerated="true"
+46            android:launchMode="singleTop"
+47            android:theme="@style/LaunchTheme"
+48            android:windowSoftInputMode="adjustResize" >
+49
+50            <!--
+51                 Specifies an Android theme to apply to this Activity as soon as
+52                 the Android process has started. This theme is visible to the user
+53                 while the Flutter UI initializes. After that, this theme continues
+54                 to determine the Window background behind the Flutter UI.
+55            -->
+56            <meta-data
+57                android:name="io.flutter.embedding.android.NormalTheme"
+58                android:resource="@style/NormalTheme" />
+59
+60            <intent-filter>
+61                <action android:name="android.intent.action.MAIN" />
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+64            </intent-filter>
+65        </activity>
+66        <!--
+67             Don't delete the meta-data below.
+68             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+69        -->
+70        <meta-data
+71            android:name="flutterEmbedding"
+72            android:value="2" />
+73
+74        <activity
+74-->[:url_launcher_android] C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-11:74
+75            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+75-->[:url_launcher_android] C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-74
+76            android:exported="false"
+76-->[:url_launcher_android] C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-37
+77            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+77-->[:url_launcher_android] C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-71
+78
+79        <provider
+79-->[:share] C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\build\share\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-16:20
+80            android:name="io.flutter.plugins.share.ShareFileProvider"
+80-->[:share] C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\build\share\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-70
+81            android:authorities="com.example.themealdbdemoapi.flutter.share_provider"
+81-->[:share] C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\build\share\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-74
+82            android:exported="false"
+82-->[:share] C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\build\share\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-37
+83            android:grantUriPermissions="true" >
+83-->[:share] C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\build\share\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-47
+84            <meta-data
+84-->[:share] C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\build\share\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-15:68
+85                android:name="android.support.FILE_PROVIDER_PATHS"
+85-->[:share] C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\build\share\intermediates\merged_manifest\debug\AndroidManifest.xml:14:17-67
+86                android:resource="@xml/flutter_share_file_paths" />
+86-->[:share] C:\Users\pc\Desktop\Internship_2A\restaurant_digency_client\build\share\intermediates\merged_manifest\debug\AndroidManifest.xml:15:17-65
+87        </provider>
+88
+89        <uses-library
+89-->[androidx.window:window:1.0.0-beta04] C:\Users\pc\.gradle\caches\transforms-3\9353b27807d267f23729ffedf812a98b\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+90            android:name="androidx.window.extensions"
+90-->[androidx.window:window:1.0.0-beta04] C:\Users\pc\.gradle\caches\transforms-3\9353b27807d267f23729ffedf812a98b\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+91            android:required="false" />
+91-->[androidx.window:window:1.0.0-beta04] C:\Users\pc\.gradle\caches\transforms-3\9353b27807d267f23729ffedf812a98b\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+92        <uses-library
+92-->[androidx.window:window:1.0.0-beta04] C:\Users\pc\.gradle\caches\transforms-3\9353b27807d267f23729ffedf812a98b\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+93            android:name="androidx.window.sidecar"
+93-->[androidx.window:window:1.0.0-beta04] C:\Users\pc\.gradle\caches\transforms-3\9353b27807d267f23729ffedf812a98b\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+94            android:required="false" />
+94-->[androidx.window:window:1.0.0-beta04] C:\Users\pc\.gradle\caches\transforms-3\9353b27807d267f23729ffedf812a98b\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+95    </application>
+96
+97</manifest>
